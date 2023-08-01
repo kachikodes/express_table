@@ -10,6 +10,15 @@
     align-items: flex-end;
 }
 
+.butn {
+    float:right;
+    
+}
+
+.butn:hover {
+    color:yellow;
+    background: blue;
+}
 
 
 label {
@@ -22,7 +31,5 @@ label {
         flex-direction:column;
     }
 
-    .butn {
-        align-content: center;
-    }
+
 }
