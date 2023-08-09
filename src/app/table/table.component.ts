@@ -54,7 +54,7 @@ export class TableComponent implements OnInit {
       next: (res) => {
         console.log(res);
         return
-        this.expressTable = res
+        // this.expressTable = res
       },
       error: (err) => {
         // console.log(err.error);
