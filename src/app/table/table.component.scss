@@ -1,23 +1,24 @@
 .section {
-    display:flex;
+    display: flex;
     justify-content: space-between;
     align-items: center;
-    
+
 }
 
 .group {
-    
-    align-items: flex-end;
+    position: absolute;
+    right: 0;
+    top: 13px;
 }
 
 .butn {
-    float:right;
-    
+    float: right;
+
 }
 
 .butn:hover {
-    color:yellow;
-    
+    color: yellow;
+
 }
 
 
@@ -25,10 +26,23 @@ label {
     font-weight: 500;
 }
 
-@media  (max-width: 768px) {
+.sectionss {
+    position: relative;
+    border: 0.5px solid transparent;
+    // box-shadow: 0px 6px 27px 0px rgba(15, 78, 164, 0.08);
+}
+
+
+@media (max-width: 768px) {
     .section {
-        display:flex;
-        flex-direction:column;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .group {
+        position: relative !important;
+        right: 0;
+        top: 13px;
     }
 
 
